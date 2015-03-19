@@ -1,0 +1,6 @@
+1. First, run the feature_extraction.py, it will create three directorys 'features/train', 'features/dev' and 'features/test', each contains the corresponding .mfc files. In the sametime, it will output three files which list all the training\dev\test feature files. We will need them during the training\dev\test process.   
+
+2. Before running the train.py, you need copy 'word.list' file and rename it 'word.nosp.list', delete the line with 'sp' and save the result. After running the train.py, it will save all the model results to the 'models' directory. These files are useful for dev and test process. 
+
+3. As I have done the tunning parts, so if you run the test.py, it will output 'testout.mlf' in 'Result' directorys. If you want to tune the parameters, you can uncomment the corresponding parts. 
+
